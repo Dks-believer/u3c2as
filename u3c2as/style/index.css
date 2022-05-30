@@ -1,0 +1,23 @@
+#menu{
+    display:grid;
+    grid-template-columns: (4,25%);
+    gap:15px;
+    margin:5px
+}
+
+img{
+    height:200px;
+    width:150px
+}
+
+#navbar{
+    display:flex;
+    background-color:aqua;
+    padding:20px;
+    justify-items: flex-end;
+}
+
+#navbar>div{
+    font-size:20px;
+    font-weight:bold
+}
